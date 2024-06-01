@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub API Fetch and AJAX Send</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <h1>GitHub Repo Fetch & Data Send Using AJAX</h1>
+
+    <div class="container">
+        <div>
+            <label for="github-username">GitHub Username:</label>
+            <input type="text" id="github-username" placeholder="Enter GitHub username">
+            <button id="fetch-repos">Fetch Repos</button>
+        </div>
+        
+        <div id="github-repos"></div>
+        
+        <div>
+            
+            <label for="data-message">Message:</label>
+            <input type="text" id="data-message" placeholder="Enter your message">
+            <button id="send-data">Send Data</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
